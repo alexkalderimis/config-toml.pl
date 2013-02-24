@@ -1,0 +1,16 @@
+array_one = [
+    "foo",
+    "bar",
+    "baz"
+]
+
+array_two = [
+    [ 
+      1, 2,
+      3
+    ],
+    [
+      "quux",
+      "quuz",
+      "quuw"
+    ]]
