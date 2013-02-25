@@ -2,5 +2,8 @@ Build
 _build
 blib
 MYMETA.*
+META.*
+Makefile.PL
+*.tar.gz
 
 
