@@ -1,9 +1,18 @@
 Build.PL
 Changes
 lib/Config/TOML.pm
+lib/Config/TOML/Parser.pm
 MANIFEST			This list of files
 README
 t/00-load.t
+t/01-sources.t
+t/02-parse-top-level.t
+t/03-parse-nested.t
+t/04-arrays.t
+t/05-read-string.t
+t/boilerplate.t
+t/data/example.toml
+t/data/pretty-arrays.toml
 t/manifest.t
 t/pod-coverage.t
 t/pod.t

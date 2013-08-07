@@ -5,7 +5,7 @@ use Module::Build;
 
 my $builder = Module::Build->new(
     module_name         => 'Config::TOML',
-    license             => 'lgpl',
+    license             => 'artistic_2',
     dist_author         => q{Alex Kalderimis <alex.kalderimis@gmail.com>},
     dist_version_from   => 'lib/Config/TOML.pm',
     release_status      => 'stable',
@@ -23,6 +23,11 @@ my $builder = Module::Build->new(
     },
     add_to_cleanup     => [ 'Config-TOML-*' ],
     create_makefile_pl => 'traditional',
+    meta_merge => {
+        resources => {
+            repository => 'https://github.com/alexkalderimis/config-toml.pl'
+        }
+    },
 );
 
 $builder->create_build_script();
